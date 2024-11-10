@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жарнамалық Хабарландыру Тақтасы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Жарнамалық Хабарландыру Тақтасы</h1>
+        <nav>
+            <a href="register.html">Тіркелу</a>
+            <a href="login.html">Кіру</a>
+        </nav>
+    </header>
+    <div class="filters">
+        <select id="categoryFilter">
+            <option value="all">Санат: Барлығы</option>
+            <option value="electronics">Электроника</option>
+            <option value="furniture">Жиһаз</option>
+            <option value="services">Қызметтер</option>
+        </select>
+        <select id="priceFilter">
+            <option value="all">Бағасы: Барлығы</option>
+            <option value="low">1000 тг - 50000 тг</option>
+            <option value="medium">50000 тг - 100000 тг</option>
+            <option value="high">100000 тг+</option>
+        </select>
+    </div>
+    <div id="listings" class="container">
+        <!-- Жарнамалар JavaScript арқылы жүктеледі -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
